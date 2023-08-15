@@ -21,59 +21,60 @@ To interact with MongoDB, the MongoDB dependency is added in the `pom.xml` file.
 Project Structure which I'll be following for this project
 
 ```bash
+.
 ├── HELP.md
 ├── mvnw
 ├── mvnw.cmd
 ├── pom.xml
 ├── Readme.md
 ├── src
-│ ├── main
-│ │ ├── java
-│ │ │ └── com
-│ │ │ └── socialmedia
-│ │ │ └── flocknest
-│ │ │ ├── config
-│ │ │ ├── controller
-│ │ │ ├── dto
-│ │ │ ├── exception
-│ │ │ ├── FlocknestApplication.java
-│ │ │ ├── model
-│ │ │ │ └── User.java
-│ │ │ ├── repository
-│ │ │ │ └── UserRepository.java
-│ │ │ ├── security
-│ │ │ └── service
-│ │ └── resources
-│ │ ├── application.properties
-│ │ ├── static
-│ │ └── templates
-│ └── test
-│ └── java
-│ └── com
-│ └── socialmedia
-│ └── flocknest
-│ └── FlocknestApplicationTests.java
+│  ├── main
+│  │  ├── java
+│  │  │  └── com
+│  │  │    └── socialmedia
+│  │  │      ├── config
+│  │  │      ├── controller
+│  │  │      ├── dto
+│  │  │      ├── exception
+│  │  │      ├── FlocknestApplication.java
+│  │  │      ├── model
+│  │  │      │  └── User.java
+│  │  │      ├── repository
+│  │  │      │  └── UserRepository.java
+│  │  │      ├── security
+│  │  │      └── service
+│  │  └── resources
+│  │    ├── application.properties
+│  │    ├── static
+│  │    └── templates
+│  └── test
+│    └── java
+│      └── com
+│        └── socialmedia
+│          └── flocknest
+│            └── FlocknestApplicationTests.java
 └── target
-├── classes
-│ ├── application.properties
-│ └── com
-│ └── socialmedia
-│ └── flocknest
-│ ├── config
-│ ├── controller
-│ ├── dto
-│ ├── exception
-│ ├── FlocknestApplication.class
-│ ├── model
-│ │ └── User.class
-│ ├── repository
-│ ├── security
-│ └── service
-└── test-classes
-└── com
-└── socialmedia
-└── flocknest
-└── FlocknestApplicationTests.class
+   ├── classes
+   │  ├── application.properties
+   │  └── com
+   │    └── socialmedia
+   │      └── flocknest
+   │        ├── config
+   │        ├── controller
+   │        ├── dto
+   │        ├── exception
+   │        ├── FlocknestApplication.class
+   │        ├── model
+   │        │  └── User.class
+   │        ├── repository
+   │        ├── security
+   │        └── service
+   └── test-classes
+     └── com
+       └── socialmedia
+         └── flocknest
+           └── FlocknestApplicationTests.class
+
 ```
 
 I will start by creating a User model class in the model package which will be used to store the user details in the database.
