@@ -20,6 +20,7 @@ To interact with MongoDB, the MongoDB dependency is added in the `pom.xml` file.
 
 Project Structure which I'll be following for this project
 
+```bash
 ├── HELP.md
 ├── mvnw
 ├── mvnw.cmd
@@ -73,6 +74,7 @@ Project Structure which I'll be following for this project
 └── socialmedia
 └── flocknest
 └── FlocknestApplicationTests.class
+```
 
 I will start by creating a User model class in the model package which will be used to store the user details in the database.
 Note: I will be using MongoDB as the database for this project.
